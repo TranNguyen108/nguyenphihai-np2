@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+  font-family: 'Oswald', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span{
+    color: rgb(238, 95, 231);
+  }
+  .btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: rgb(238, 95, 231);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem rgb(238, 95, 231);
+    font-size: 1.6rem;
+    color: var( #323946);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+  }
+  .btn:hover{
+    box-shadow: none;
+  }
+a {
+  color: #323946;
+  text-decoration: none;
+  
+}
+.wrapper {
+    background-color:#1f242d;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.wrapper .buttons a{
+    margin: 1.5rem;
+    font-size: .7rem;
+}
+.wrapper h1 {
+    font-size: 8rem;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+.wrapper p {
+    color: white;
+    font-size: 25px;
+    width: 500px;
+}
+
+
